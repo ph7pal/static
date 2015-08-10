@@ -1,0 +1,158 @@
+.page-index{
+    background-color:#424242;
+}
+.page-result{
+    background-color: #f2f2f2;
+}
+.page-about{
+    background-color: #f2f2f2;
+}
+.wrapper{
+    width: 300px;
+    background: none;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -150px;
+}
+.wrapper button{
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 3px 8px;
+}
+.my-badge{
+    position: absolute;
+    bottom: 30px;
+    right: 20px;
+}
+.index-intro{
+    height: 100px;
+    margin-top: -100px;
+}
+.index-intro h1{font-size: 28px;}
+.index-intro h2{font-size: 18px;}
+.index-button-holder{
+    height: 50px;            
+    margin-top: 20px;
+}        
+.content{
+    height: 200px;
+    margin-top: -100px;
+    margin-left: -150px;
+    background: none;
+    font-size: 14px;
+    line-height: 14px;
+}
+.content input{
+    background: none;            
+    -webkit-appearance: none;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border-radius: 0px;
+    outline: 0;
+    border-bottom: 1px solid #fff;
+    border-top: none;
+    border-right:none;
+    border-left: none;
+
+}
+.content p{
+    padding: 5px 0
+}
+.results{
+    height: 300px;
+    margin-top: -150px;
+}
+.results-holder{
+    height: 200px;
+    background: url('../images/bg.png') repeat
+}
+.result-dan{
+    background: red;
+    border-bottom: 1px dashed #fff;
+}
+.dan-content{
+    display: none;
+}
+.results-holder button{
+    color: red;
+    border: 1px solid red;
+    padding: 3px 8px;
+}
+.result-dan .dan-header{
+    padding: 5px 0;
+    text-align: center;
+    font-size: 24px;
+}
+.results-holder .triangle-down {
+    width: 0;
+    height: 0;
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+    border-top: 100px solid red;
+}
+.page-about .content{
+    color: #333
+}
+#copyright {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    font-size: 12px;
+    color: #999;
+    height: 30px;
+    margin-top: 10px;
+}
+#copyright:before {
+    display: block;
+    content: "";
+    background-image: -webkit-gradient(radial,center center,0,center center,460,from(#333),to(#efefef));
+    background-image: -webkit-radial-gradient(circle,#333,#efefef);
+    background-image: -moz-radial-gradient(circle,#333,#efefef);
+    background-image: radial-gradient(circle,#333,#efefef);
+    background-repeat: no-repeat;
+    height: 1px;
+    overflow: hidden;
+    margin-top: 12px;
+}
+#copyright .copyright_text {
+    line-height: 23px;
+    background: #f2f2f2;
+    position: absolute;
+    padding: 0 6px;
+    top: -11px;
+    left: 50%;
+    margin-left: -106px;
+}
+.copyright_text a {
+    margin-left: 8px;
+    color: #a9a9a9;
+}
+.help-block,.help-block a{
+    color: #a9a9a9;
+}
+.num{
+    display: block;
+    font-size: 24px;
+}
+#rank-score{
+    height: 36px;
+}
+#rank-score .ui-loading-wrap{
+    
+}
+#check-result-btn{
+    margin-top: 20px;
+}
+#teacher-holder{
+    margin-top: 10px;
+    padding-bottom: 50px;
+}
+#what-teacher-says{
+    font-size: 14px;
+    margin: 10px 0
+}
